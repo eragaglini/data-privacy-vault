@@ -1,0 +1,22 @@
+# --- Ambiente e Configurazioni ---
+.env
+config.py
+*.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# --- Database & Logs ---
+*.log
+*.sqlite
+dump.rdb
+
+# --- Altro ---
+.DS_Store
+.vscode/
+.idea/

@@ -1,4 +1,13 @@
-Flask
-redis
-cryptography
-python-dotenv
+# Core Framework
+flask>=3.0.0
+
+# Database & Cache
+redis>=5.0.0
+
+# Security & Encryption
+cryptography>=42.0.0
+
+# Validation & Settings
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0

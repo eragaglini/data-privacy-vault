@@ -1,6 +1,8 @@
 🛡️ Data Privacy Vault
 
-Un microservizio sicuro progettato per la tokenizzazione e l'archiviazione di dati sensibili (PII - Personally Identifiable Information). Il sistema isola le informazioni critiche dal resto dell'infrastruttura, restituendo token sicuri alle applicazioni client.
+Un microservizio sicuro progettato per la tokenizzazione e l'archiviazione di dati sensibili (PII - Personally Identifiable Information).
+
+Il sistema isola le informazioni critiche dal resto dell'infrastruttura, restituendo token sicuri alle applicazioni client.
 
 ✨ Caratteristiche Principali
 
@@ -86,7 +88,9 @@ python app.py
 
 Ecco come interagire con il Vault usando curl.
 
-Tokenizzazione (Richiede ruolo: writer)
+Tokenizzazione
+
+(Richiede ruolo: writer)
 
 Sostituisci il token Bearer con quello configurato nel tuo sistema (es. writer-token-abc-123 o admin-token-xyz-789).
 
@@ -113,7 +117,9 @@ Risposta attesa:
 }
 
 
-De-tokenizzazione (Richiede ruolo: reader)
+De-tokenizzazione
+
+(Richiede ruolo: reader)
 
 Usa i token ricevuti nel passaggio precedente per recuperare i dati originali.
 
